@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive budgeting tools and calculators"> 
+    <meta property="og:title" content="Home | Budgeting Tools">
+    <meta property="og:description" content="Use our interactive tools to manage your finances better.">
+    <link rel="canonical" href="/index.html">
+    <title>Budgeting Tools</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles */
+        .carousel img { width: 100%; height: auto; }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-3xl">Budgeting Tools</h1>
+    </header>
+    <nav class="sticky top-0 bg-white shadow-md p-2">
+        <ul class="flex space-x-4">
+            <li><a href="index.html" class="text-blue-600">Home</a></li>
+            <li><a href="about.html" class="text-blue-600">About</a></li>
+            <li><a href="contact.html" class="text-blue-600">Contact</a></li>
+            <li><a href="privacy-policy.html" class="text-blue-600">Privacy Policy</a></li>
+            <li><a href="terms-of-service.html" class="text-blue-600">Terms of Service</a></li>
+        </ul>
+    </nav>
+    <main class="p-4">
+        <div class="carousel mb-4">
+            <img src="lazy-image1.jpg" alt="Budgeting Tool 1" loading="lazy">
+            <img src="lazy-image2.jpg" alt="Budgeting Tool 2" loading="lazy">
+        </div>
+        <h2 class="text-2xl mb-4">Explore Our Tools</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white p-4 rounded shadow-md">
+                <h3 class="text-xl">Calculator 1</h3>
+                <p>Short description of tool.</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md">
+                <h3 class="text-xl">Calculator 2</h3>
+                <p>Short description of tool.</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md">
+                <h3 class="text-xl">Calculator 3</h3>
+                <p>Short description of tool.</p>
+            </div>
+        </div>
+        <!-- ad:top -->
+    </main>
+    <footer class="bg-gray-800 text-white p-4 mt-4">
+        <p>&copy; 2023 Budgeting Tools. All rights reserved.</p>
+    </footer>
+    <script src="https://www.googletagmanager.com/gtag/js?id=GA_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_ID');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+        window.cookieconsent.initialise({
+            palette: {
+                popup: {
+                    background: '#000'
+                },
+                button: {
+                    background: '#f1d600'
+                }
+            },
+            theme: 'classic',
+            content: {
+                message: 'This website uses cookies to ensure you get the best experience on our website.',
+                dismiss: 'Got it!',
+                link: 'Learn more',
+                href: 'privacy-policy.html'
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+.container { max-width: 1200px; margin: auto; padding: 20px; }
+.bg-gray-100 { background-color: #f7fafc; }
+.bg-white { background-color: #ffffff; }
+.shadow { box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+.rounded { border-radius: 0.5rem; }
+.p-4 { padding: 1rem; }
+.p-6 { padding: 1.5rem; }
+.text-center { text-align: center; }
+.text-2xl { font-size: 1.5rem; }
+.font-bold { font-weight: bold; }
+.border { border: 1px solid #e2e8f0; }
+.p-2 { padding: 0.5rem; }
+.w-full { width: 100%; }
+.mb-4 { margin-bottom: 1rem; }
+.bg-blue-500 { background-color: #291aaf; }
+.text-white { color: #ffffff; }
+.rounded { border-radius: 0.25rem; }
+.grid { display: grid; }
+.grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.gap-4 { gap: 1rem; }
